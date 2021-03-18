@@ -92,8 +92,8 @@ using namespace std;
 #include <half.hpp>				// half floats. http://half.sourceforge.net
 
 // Template headers
-#include "surface.h"			// pixel surface class
-#include "template.h"			// template functionality
+#include "include/surface.h"			// pixel surface class
+#include "include/template.h"			// template functionality
 
 //Tiny object loader
 
@@ -108,15 +108,15 @@ using namespace Tmpl8;
 
 
 //equation solver
-#include "Roots3And4.h"
+#include "include/Roots3And4.h"
 //for simd
 #include "nmmintrin.h"
 
 // Game
-#include "util.h"
-#include "game.h"				// game class
-#include "BVH.h"				//BVH construction
-#include "cudaTrace.h"
+#include "include/util.h"
+#include "include/game.h"				// game class
+#include "include/BVH.h"				//BVH construction
+#include "include/cudaTrace.h"
 
 
 

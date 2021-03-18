@@ -1,5 +1,5 @@
-#include "cudaTrace.h"
-#include "lib/vec3.h"
+#include "include/cudaTrace.h"
+#include "include/vec3.h"
 #include <stdlib.h>
 #include <iostream>
 

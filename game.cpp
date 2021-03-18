@@ -2,9 +2,9 @@
 
 //https://github.com/tinyobjloader/tinyobjloader
 #define TINYOBJLOADER_IMPLEMENTATION // define this in only *one* .cc
-#include <tiny_obj_loader.h>
+#include <include/tiny_obj_loader.h>
 #define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
+#include <include/stb_image.h>
 
 
 std::ostream& operator<<(std::ostream& os, const BVHNode& dt) {
